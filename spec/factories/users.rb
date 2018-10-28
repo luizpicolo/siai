@@ -19,9 +19,9 @@
 #  name                   :string
 #  siape                  :integer
 #  sector_id              :integer
-#  position_id            :integer
+#  position_id            :bigint(8)
 #  avatar                 :string
-#  course_id              :integer
+#  course_id              :bigint(8)
 #  admin                  :boolean          default(FALSE)
 #
 
@@ -30,12 +30,12 @@ FactoryBot.define do
     pwd = Faker::Internet.password
     name { Faker::Name.name }
     email { Faker::Internet.email }
-    password pwd
-    password_confirmation pwd
+    password { pwd }
+    password_confirmation { pwd }
     username { Faker::Internet.user_name }
     siape { Faker::Number.number(7) }
     sector
-    admin false
+    admin { false }
     position factory: :position
   end
 end
