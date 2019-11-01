@@ -34,7 +34,7 @@ gem 'modernizr-rails'
 gem 'nokogiri', '>= 1.10.4'
 gem 'pg'
 gem 'pdfkit'
-gem 'rails', '5.2.2.1'
+gem 'rails', '6.0'
 gem 'rails-i18n'
 gem 'rails-env'
 gem 'rack', '>= 2.0.6'
@@ -49,6 +49,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'uglifier'
 gem 'wkhtmltopdf-binary'
 gem 'whenever', require: false
+gem 'rubocop'
 
 group :development, :test do
   gem 'byebug', platform: :mri
@@ -60,7 +61,7 @@ group :development, :test do
   gem 'faker'
   gem 'rspec-rails'
   gem 'selenium-webdriver'
-  gem 'shoulda-matchers', git: 'https://github.com/thoughtbot/shoulda-matchers.git', branch: 'rails-5'
+  gem 'shoulda-matchers'
   gem 'spring'
   gem 'regressor', git: 'https://github.com/ndea/regressor.git'
   gem 'spring-watcher-listen', '~> 2.0.0'
