@@ -1,3 +1,4 @@
+# Repositório descontinuado. Novas versões e atualizações podem ser acessadas em [https://github.com/luizpicolo/sigoe](https://github.com/luizpicolo/sigoe)
 # SIAI - Sistema de Apoio Interno
 
 ![Sistema de Apoio interno](https://raw.githubusercontent.com/luizpicolo/siai/master/app/assets/images/logo_ifms.png?token=ABT0W4aSOnogYpUeUhFZlcp1WgNYR34Gks5Yv3kuwA%3D%3D)
