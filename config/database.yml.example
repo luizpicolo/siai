@@ -1,5 +1,5 @@
 development: &dev
-  host: 127.0.0.1
+  host: postgres
   adapter: postgresql
   encoding: unicode
   database: db_dev
@@ -8,7 +8,7 @@ development: &dev
   password: postgres
 
 test: &test
-  host: 127.0.0.1
+  host: postgres
   adapter: postgresql
   encoding: unicode
   database: db_test
