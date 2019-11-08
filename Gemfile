@@ -34,7 +34,7 @@ gem 'modernizr-rails'
 gem 'nokogiri', '>= 1.10.4'
 gem 'pg'
 gem 'pdfkit'
-gem 'rails', '5.2.2.1'
+gem 'rails', '6.0'
 gem 'rails-i18n'
 gem 'rails-env'
 gem 'rack', '>= 2.0.6'
@@ -49,6 +49,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'uglifier'
 gem 'wkhtmltopdf-binary'
 gem 'whenever', require: false
+gem 'rubocop'
 
 group :development, :test do
   gem 'byebug', platform: :mri
